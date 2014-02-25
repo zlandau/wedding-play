@@ -1,0 +1,46 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Stage</title>
+  <meta name="description" content="">
+  <!-- <meta name="viewport" content="user-scalable=no, width=device-width" > -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <!-- <script src="http://cdn.craftycomponents.com/crafty-0.5.3-uncompressed.js"></script> -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <link href="resources/fonts/stylesheet.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href="resources/stage.css" rel="stylesheet">
+  <script src="src/lib/crafty.js?v=4"></script>
+  <script data-main="src/main.js" src="src/lib/require.js"></script>
+
+</head>
+
+<body>
+
+  <img id="bg-img" src="resources/gameboyt.png" />
+  <div id="top-bar">
+    <div id="top-bar-content">
+      <a href="..">Return to main page</a> |
+      Jump to Scene: <select id="scene-select" name="scene" > |
+      <input type="checkbox" id="sound-enable" checked /> Sound
+      <span id="ie-placeholder" />
+    </div>
+  </div>
+  <div id="cr-stage" />
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-39296560-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>
